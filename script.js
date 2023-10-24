@@ -74,7 +74,7 @@ function setupMultiplePyramidsAndBouncingCubes() {
 
   for (let i = 0; i < 4; i++) {
     const cubeGeometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
-    const cubeColors = [0xff0000, 0x00ff00, 0x0000ff, 0xffff00]; // Different cube colors.
+    const cubeColors = [0xff0000, 0x00ff00, 0x0000ff, 0xffff00]; 
     const cubeMaterial = new THREE.MeshBasicMaterial({ color: cubeColors[i], transparent: true, opacity: 0.8 });
     const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
 
